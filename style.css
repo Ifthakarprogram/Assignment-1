@@ -1,0 +1,261 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header style */
+.header{
+    background-color: #FCEEF1;
+}
+
+.banner-container{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    margin: 0px 200px;
+    gap:225px;
+
+}
+
+.banner-h1{
+    font-size: 65px;
+    font-weight: bolder;
+    color: #272727;
+    width: 650px;
+    margin-bottom: 0px;   
+}
+
+.banner-image{
+    width: 650px;
+    height: 800px;
+    margin-top: 40px;
+    
+}
+ 
+.banner-description{
+    font-size: 18px;
+    margin-top: 32px;
+    max-width: 660px;
+    line-height: 30px;
+    color: rgb(83, 81, 81);
+}
+.btn{
+    background-color: #E55473;
+    padding: 15px 35px;
+    margin-top: 32px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    border-radius: 6px;
+    border: none;
+}
+
+/* main section style */
+
+.main-container{
+    height: 100vh;
+    margin:200px;
+    margin-top: 130px;
+}
+.main-style{
+    text-align: center;
+}
+
+.primary-heading{
+    font-size: 40px;
+    color: #272727;
+}
+.main-description{
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 24px;
+    color: rgb(83, 81, 81);
+}
+.image-all{
+    display: flex;
+    width: 1440px;
+    height: 610px;  
+}
+.image-1{
+    background-color:#F2DEE7;
+    width: 400px;
+    height: 480px;
+    text-align: center;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+    padding: 30px;   
+}
+.image-photo{
+    width: 250px;
+    margin-top: 164px; 
+   
+}
+.image-container{
+    display: flex;
+    margin-top: 100px;
+}
+.image-1 > h6{
+    font-size: 16px;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: rgb(83, 81, 81);
+}
+.image-2{
+    background-color:#DAEFF1;
+    width: 400px;
+    height: 480px;
+    text-align: center;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+    padding: 30px;
+}
+.image-2 > h6{
+    font-size: 16px;
+    margin-top: 67px;
+    text-decoration: underline;
+    color: rgb(83, 81, 81);
+}
+
+.image-photo2{
+        width: 300px;
+        margin-top: 164px; 
+}
+
+.image-3{
+    background-color:#E3ECDB;
+    width: 400px;
+    height: 480px;
+    text-align: center;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+    padding: 30px;
+}
+.image-photo3{
+    width: 280px;
+    margin-top: 90px; 
+}
+
+#apple{
+    font-size: 16px;
+    margin-top: 22px;
+    text-decoration: underline;
+    color: rgb(83, 81, 81);
+}
+.support-container{
+    background-color: #F4F4F4;
+    margin: -170px 200px 150px 200px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    justify-content: center;
+    border-radius: 10px;
+}
+.group-h6{
+    font-size: 16px;
+    color: rgb(83, 81, 81);
+    margin-top: 15px;
+}
+.group-image{
+    text-align: center;
+}
+.group-img{
+    width: 75px;
+}
+
+.offer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:200px;
+    background-color: #FEF6F8;
+    padding: 70px;
+    margin-bottom: 150px;
+}
+.offer-style{
+    text-align: center;
+    max-width: 680px;
+
+}
+.image-offer{
+    width: 330px;
+      
+}
+.ins-container{
+    text-align: center;
+    margin-top: -20px;
+}
+
+.image-flower{
+    display: flex;
+    margin: 50px 200px;
+    gap: 25px;
+   
+}
+.get-background{
+    background-image: url(image/Rectangle\ 9.png);
+    margin: 100px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1440px;
+    height: 420px;
+    background-size: cover;
+    border-radius: 5px;
+    
+}
+.div-style{
+    text-align: center;
+    padding: 115px;
+}
+
+.des{
+    font-size: 17px;
+    color: rgb(83, 81, 81);
+    margin-top: 10px;
+}
+.form-email{
+    padding: 15px 35px;
+    border: none;
+    margin-right: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    width: 500px;
+}
+.form-list{
+    margin-top: 8px;
+}
+
+#off-color{
+    color: #E55473;
+}
+/* footer style */
+.footer-container{
+    background-color: #111010;
+    padding: 95px;
+    
+}
+.footer-h6{
+    font-size: 13px;
+    color: rgb(194, 192, 192);
+    text-align: center;
+    line-height: 21px;
+    margin-top: 10px;
+}
+.footer-heading{
+    font-size: 40px;
+    color: whitesmoke;
+    text-align: center;
+}
+.footer-para{
+    color: rgb(194, 192, 192);
+    text-align: center;
+    font-size: 13px;
+    margin-top: 10px;
+}
+#span{
+    color:#E55473;
+}
