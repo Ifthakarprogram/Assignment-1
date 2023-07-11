@@ -192,19 +192,20 @@ body{
 
 .image-flower{
     display: flex;
-    margin: 50px 200px;
+    margin: 50px 220px;
     gap: 25px;
    
 }
 .get-background{
     background-image: url(image/Rectangle\ 9.png);
-    margin: 100px 200px;
+    margin: 100px 220px;
     background-repeat: no-repeat;
     background-position: center;
-    width: 1440px;
+    width: 1450px;
     height: 420px;
     background-size: cover;
     border-radius: 5px;
+
     
 }
 .div-style{
@@ -232,10 +233,63 @@ body{
 #off-color{
     color: #E55473;
 }
+.bg-image{
+    background-image: url(image/bg-5.jpg);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px 220px;
+    background-size: contain;
+    width: 1450px;   
+}
+
+.image-short{
+    text-align: center;
+    background-color: whitesmoke;
+    position:absolute;
+    background-position: center;
+    margin: 175px 455px;
+    padding: 30px 70px ;
+    border-radius: 5px;
+    
+}
+
+.small-p{
+    font-size: 15px;
+}
+.hed-h3{
+    color: #272727;
+}
+.image-last{
+    margin: 15px;
+    
+}
+.image-short >hr{
+    margin: 15px auto;
+    width: 60px;
+    border: 1.5px solid #E55473;
+    
+}
+#game{
+    line-height: 25px;
+    font-size: 15px;
+}
+.container{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin: 7px 220px 130px;
+    
+}
+.design{
+    width: 345px;
+    height: 380px;
+}
 /* footer style */
 .footer-container{
     background-color: #111010;
     padding: 95px;
+    
     
 }
 .footer-h6{
